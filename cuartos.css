@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8A1538;
+}
+
+header {
+    background-color: rgb(53, 2, 2) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 11%;
+    margin-left: 4em;
+}
+
+nav {
+    width: 65%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(236, 153, 45);
+    padding: .5em;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    border-radius: 2em;
+    background-color: rgb(248, 213, 213);
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto; 
+    justify-content: space-around;
+}
+
+
+
+.nav a :hover
+{
+    background-color: #491620;
+    border-radius: 3em;
+    color: rgb(248, 213, 213);
+}
+
+.container .octavos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.confrontation{
+    color: rgb(249, 170, 170);
+    background-color: #8A1538;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.information {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.information p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.information-fecha {
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.teams {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.confrontation-p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 25%;
+}
+
+.confrontation img {
+    width: 70px;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4); 
+}
+
+.confrontation-p p{
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px 5px 10px 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color:  rgb(249, 170, 170);
+    font-family:'Noto Sans', sans-serif;
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4); 
+    font-weight: 500;
+}
+
+.end {
+    text-align: end;
+}
+
+.start {
+    text-align: start;
+}
+
+
+.resultado{
+    display: flex;
+    align-items: center;
+}
+
+.resultado p{
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 0px 10px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
